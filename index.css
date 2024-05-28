@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: grid;
+}
+
+#disp {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+}
+
+#menu {
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 10px;
+}
+
+#menu input {
+  width: 50px;
+}
+
+button {
+  margin-bottom: 5px;
+}
